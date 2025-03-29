@@ -6,16 +6,6 @@ A multi-window Java retail application enhanced for the **CI553 module** at the 
 
 ---
 
-## 🖼️ Project Preview
-
-<p align="center">
-  <img src="screenshots/catshop_main_interface.png" width="600" alt="Main Catshop Interface"/>
-  <br>
-  <em>Figure 1 – Catshop Customer Client Interface</em>
-</p>
-
----
-
 ## 📦 Project Overview
 
 Catshop is a simulated retail system with multiple interfaces:
@@ -38,84 +28,52 @@ Customers can:
 
 ## 🛠 Tools & Setup
 
-- **Eclipse IDE**
-- **Git & GitHub**
-- **WhiteStar UML** – use-case and sequence diagrams
-- **JUnit** – unit testing
-- **JavaDoc** – for internal documentation
+- **Eclipse IDE** – used after IntelliJ failed to run the provided code
+- **Git & GitHub** – for cloning and version control
+- **WhiteStar UML** – used for modeling Use Case & Sequence Diagrams
+- **JUnit** – for automated unit testing
+- **JavaDoc** – for project documentation
 
 ---
 
 ## 🚀 Features Added
 
 ### 🔁 Merge Quantity of Same Products
-<p align="center">
-  <img src="screenshots/merge_quantity.png" width="500" alt="Merge Quantity"/>
-  <br>
-  <em>Figure 2 – Quantity of same product merged in BetterBasket</em>
-</p>
+When the same product is added again, the quantity increases rather than creating a duplicate entry in the basket.
 
 ### 🎨 GUI Button Enhancements
-<p align="center">
-  <img src="screenshots/button_hover.png" width="500" alt="Button Hover Effect"/>
-  <br>
-  <em>Figure 3 – Mouse hover styling on GUI buttons</em>
-</p>
+Mouse hover effects added using `MouseListener` and button colors to improve UX.
 
 ### 🔊 Added Sound Effects
-Plays a sound when certain actions are taken (e.g. item added or removed).
+Custom sound class plays sounds on key interactions using a designated `/sound` folder.
 
 ### 🔢 Sort Basket by Product ID
-Organized product listing in the basket for better readability.
+Improved order display by sorting items by their ID in the `BetterBasket` class.
 
 ### 🗑 Remove Button
-Allows removal of specific product by ID with quantity check.
+Implemented `removeItem` functionality allowing customers to remove specific items by product ID.
 
 ---
 
 ## 🧪 Testing
 
-- JUnit tests written for:
-  - Item removal
-  - Quantity merging
-  - Basket sorting
-- GUI behavior manually tested
-
-<p align="center">
-  <img src="screenshots/junit_test_passed.png" width="500" alt="JUnit Tests Passed"/>
-  <br>
-  <em>Figure 4 – Successful JUnit test results</em>
-</p>
+- Implemented **JUnit** tests for key features.
+- Verified GUI behaviors and core logic independently.
 
 ---
 
 ## 📐 UML Diagrams
 
-### ✅ Use Case Diagram
-<p align="center">
-  <img src="screenshots/use_case_diagram.png" width="600" alt="Use Case Diagram"/>
-  <br>
-  <em>Figure 5 – Use case diagram made in WhiteStar UML</em>
-</p>
+- ✅ Use Case Diagram  
+- ✅ Customer & Cashier Client Sequence Diagrams
 
-### ✅ Sequence Diagrams
-<p align="center">
-  <img src="screenshots/sequence_diagram_customer.png" width="600" alt="Customer Sequence Diagram"/>
-  <br>
-  <em>Figure 6 – Customer Client sequence diagram</em>
-</p>
+Created using WhiteStar UML.
 
 ---
 
 ## 📄 Documentation
 
-JavaDoc generated using Eclipse plugin:
-
-<p align="center">
-  <img src="screenshots/javadoc_sample.png" width="600" alt="JavaDoc Screenshot"/>
-  <br>
-  <em>Figure 7 – JavaDoc for the BetterBasket class</em>
-</p>
+- Generated using **JavaDoc plugin** in Eclipse for method-level documentation.
 
 ---
 
